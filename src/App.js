@@ -23,7 +23,7 @@ function App() {
 				bgcolor: "background.default",
 				color: "text.primary",
 				width: "100%",
-				height: "100vh",
+				// height: "100vh",
 			}}
 		>
 			<header>
@@ -41,24 +41,26 @@ function App() {
 					<Typography variant="h5">About</Typography>
 					<Divider flexItem />
 					<Typography variant="body1" marginTop="15px">
-						{`Selected works by Zico da Silva ${"\u2014"} software engineer, with particular interest in dynamic motion applications.`}
+						{`Selected works by Zico da Silva ${"\u2014"} a software engineer with a particular interest in dynamic motion applications and optimal estimation problems.`}
 					</Typography>
-				</div>
-				{/* <Divider orientation="vertical" flexItem /> */}
-				<div className="center-pane">
-					<Typography variant="h5">Selected Projects</Typography>
-					<Divider flexItem />
-					<ProjectList />
 					<br />
 					<Typography variant="h5">Published Works</Typography>
 					<Divider flexItem />
 					<PublishedPapersList />
 				</div>
-				{/* <Divider orientation="vertical" flexItem /> */}
-				<div className="right-pane">
+				<div className="center-pane">
 					<Typography variant="h5">Experience</Typography>
 					<Divider flexItem />
 					<WorkExperienceList />
+				</div>
+				<div className="right-pane">
+					<Typography variant="h5">Selected Projects</Typography>
+					<Divider flexItem />
+					<ProjectList />
+					<br />
+					<br />
+					<br />
+					<br />
 				</div>
 			</div>
 		</Box>

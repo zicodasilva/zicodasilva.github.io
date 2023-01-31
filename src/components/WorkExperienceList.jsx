@@ -8,7 +8,7 @@ function WorkExperienceList(props) {
 		<List dense={false}>
 			<ListItem>
 				<WorkExperienceItem
-					header={`2021 ${"\u2014"} 2023`}
+					header={`2021 ${"\u2013"} 2023`}
 					title={
 						<Link
 							href="http://www.aru.uct.ac.za/"
@@ -24,7 +24,7 @@ function WorkExperienceList(props) {
 			</ListItem>
 			<ListItem>
 				<WorkExperienceItem
-					header={`Feb 2016 ${"\u2014"} Present`}
+					header={`Feb 2016 ${"\u2013"} Present`}
 					title={
 						<Link
 							href="https://www.peralex.com/"
@@ -42,7 +42,7 @@ function WorkExperienceList(props) {
 			</ListItem>
 			<ListItem>
 				<WorkExperienceItem
-					header={`Nov 2014 ${"\u2014"} Feb 2015`}
+					header={`Nov 2014 ${"\u2013"} Feb 2015`}
 					title={
 						<Link
 							href="http://www.aru.uct.ac.za/"
@@ -59,7 +59,7 @@ function WorkExperienceList(props) {
 			</ListItem>
 			<ListItem>
 				<WorkExperienceItem
-					header={`2012 ${"\u2014"} 2015`}
+					header={`2012 ${"\u2013"} 2015`}
 					title={
 						<Link
 							href="http://www.uct.ac.za/"
