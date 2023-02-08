@@ -19,7 +19,7 @@ function WorkExperienceList(props) {
 							African Robotics Unit
 						</Link>
 					}
-					description="MSc with the ARU at the University of Cape Town. A full dissertation programme in the topic: Monocular 3D Reconstruction of Cheetahs in the Wild."
+					description="Part time MSc at the University of Cape Town. A full dissertation programme in the topic: Monocular 3D Reconstruction of Cheetahs in the Wild."
 				/>
 			</ListItem>
 			<ListItem>
@@ -35,9 +35,9 @@ function WorkExperienceList(props) {
 							Peralex Electronics
 						</Link>
 					}
-					description="Working as a remote software and DSP (digital signal processing) engineer. He
+					description="Remote software and DSP (digital signal processing) engineer. He
 										has worked as the sole engineer on a diverse set of projects, ranging from IoT
-										(Internet of Things), web development, and RADAR signal processing."
+										(Internet of Things), web development, and radar signal processing."
 				/>
 			</ListItem>
 			<ListItem>
@@ -53,8 +53,8 @@ function WorkExperienceList(props) {
 							African Robotics Unit
 						</Link>
 					}
-					description="Worked on the DIMA Robot, developed by Dr. Amir Patel, at the University of Cape Town.
-								Developed the Inertial Navigation Control System for the robot."
+					description="Worked on the DIMA Robot, developed by Dr Amir Patel, at the University of Cape Town.
+								Implemented an Inertial Navigation Control System for the robot."
 				/>
 			</ListItem>
 			<ListItem>
@@ -70,7 +70,7 @@ function WorkExperienceList(props) {
 							University of Cape Town
 						</Link>
 					}
-					description="BSc Electrical and Computer Engineering, graduating with a First-class honours."
+					description="BSc Electrical and Computer Engineering, graduating with a First-Class honours."
 				/>
 			</ListItem>
 		</List>

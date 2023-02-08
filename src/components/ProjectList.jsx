@@ -1,11 +1,13 @@
 import React from "react";
-import { List, ListItem, Link } from "@mui/material";
+import { List, ListItem, Link, Typography, Divider } from "@mui/material";
 
 import ProjectItem from "./ProjectItem";
 
 function ProjectList(props) {
 	return (
 		<List dense={false}>
+			<Typography variant="subtitle1">Research</Typography>
+			<Divider flexItem />
 			<ListItem>
 				<ProjectItem
 					title={
@@ -18,25 +20,33 @@ function ProjectList(props) {
 							AcinoSet
 						</Link>
 					}
-					description="A Contribution towards the first cheetah running dataset, AcinoSet, was made. The paper, 'Improving 3D Markerless Pose Estimation of Animals in the Wild using Low-Cost Cameras', was published in IROS 2022 for this work. Skills required to accomplish this project: application development (Python), trajectory optimisation (Pyomo and IPOPT), and pose estimation (DeepLabCut). "
+					description="Contributed to the creation of AcinoSet, the first cheetah running dataset. Published a paper, 'Improving 3D Markerless Pose Estimation of Animals in the Wild using Low-Cost Cameras', in IROS 2022. AcinoSet was developed using Python, trajectory optimisation (Pyomo/IPOPT), and pose estimation (DeepLabCut)."
 				/>
 			</ListItem>
+			<Typography variant="subtitle1">{`Peralex ${"\u2014"} as lead engineer`}</Typography>
+			<Divider flexItem />
 			<ListItem>
 				<ProjectItem
 					title="Telemetry Device"
-					description="An energy-efficient telemetry device that captures environmental data for post-processing and visualisation using a central server. The details cannot be disclosed. Around 1000 devices are deployed in the field and have been operating for over five years. The skills required to accomplish this project: embedded programming (C and C++), web development (NodeJS, JavaScript, HTML, CSS), and mobile development (React Native)."
+					description="An energy-efficient telemetry device that collects environmental data to send to a central server for post-processing and visualisation. 1000+ devices were deployed and have been operating for over five years (details confidential). Technologies used: C/C++ for embedded systems, web (NodeJS, JavaScript, HTML, and CSS), and mobile (React Native)."
 				/>
 			</ListItem>
 			<ListItem>
 				<ProjectItem
 					title="Passive Radar Visualisation"
-					description="A web application used to visualise live aircraft flights using passive radar and an extended Kalman filter. The application uses CesiumJS for 3D geospatial visualisation in the browser and allows an operator to obtain metadata about each flight detected. The skills required to accomplish this project: web development (NodeJS, JavaScript, HTML, CSS)."
+					description="Live flight tracking web app that connects to a passive radar system. CesiumJS was used for 3D geospatial visualisation, and the system supports live analysis of flight data. The web app was developed using NodeJS, JavaScript, WebSockets, HTML, and CSS."
+				/>
+			</ListItem>
+			<ListItem>
+				<ProjectItem
+					title="Navigation Radar Visualisation"
+					description="A web-based vessel tracking visualisation application. Includes time and frequency domain plots, and a CesiumJS map view (details confidential). The system comprises of a frontend web application (developed using ReactJS, JavaScript, WebSockets, HTML, and CSS) and a backend data processing server (developed using C++ and ZeroMQ)."
 				/>
 			</ListItem>
 			<ListItem>
 				<ProjectItem
 					title="In-house Management System"
-					description="A web application used to facilitate product and project management at Peralex Electronics. The details cannot be disclosed. The platform serves around 50 employees and has been in operation for more than a year. The skills required to accomplish this project: full stack web development (ReactJS, NodeJS, PostgreSQL) and Docker."
+					description="A product and project management platform for Peralex Electronics (details confidential). Serves 50+ employees and has been in operation for over a year. The web app was developed using full stack web technologies: ReactJS, WebSockets, NodeJS, PostgreSQL and Docker."
 				/>
 			</ListItem>
 		</List>

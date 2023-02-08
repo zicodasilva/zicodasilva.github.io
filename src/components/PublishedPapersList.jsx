@@ -11,21 +11,26 @@ function PublishedPapersList(props) {
 					target="_blank"
 					color="text.primary"
 				>
-					<Typography variant="body1">
+					<Typography variant="body2">
 						Improving 3D Markerless Pose Estimation of Animals in the Wild using Low-Cost Cameras
 					</Typography>
 				</Link>
 			</ListItem>
 			<ListItem>
 				{/* <Link href="#" target="_blank" color="text.primary"> */}
-				<Typography variant="body1">
-					*Chasing the Cheetah: How field biomechanics has evolved to keep up with the fastest land animal
+				<Typography variant="body2">
+					Chasing the Cheetah: How field biomechanics has evolved to keep up with the fastest land animal*
 				</Typography>
 				{/* </Link> */}
 			</ListItem>
 			<ListItem>
-				<Typography variant="body1">* Release pending</Typography>
+				{/* <Link href="#" target="_blank" color="text.primary"> */}
+				<Typography variant="body2">Motion and Torque Estimation of Cheetahs in the Wild**</Typography>
+				{/* </Link> */}
 			</ListItem>
+			<br />
+			<Typography variant="body2">* Release pending</Typography>
+			<Typography variant="body2">** Under development</Typography>
 		</List>
 	);
 }
