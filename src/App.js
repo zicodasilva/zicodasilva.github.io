@@ -73,34 +73,19 @@ function App() {
 					<br />
 					<Typography variant="body2">
 						→ Email:{" "}
-						<Link
-							href="mailto:zicods7@gmail.com"
-							// underline="hover"
-							target="_blank"
-							color="text.primary"
-						>
+						<Link href="mailto:zicods7@gmail.com" target="_blank" color="text.primary">
 							zicods7@gmail.com
 						</Link>
 					</Typography>
 					<Typography variant="body2">
 						→ GitHub:{" "}
-						<Link
-							href="https://github.com/zicodasilva"
-							// underline="hover"
-							target="_blank"
-							color="text.primary"
-						>
+						<Link href="https://github.com/zicodasilva" target="_blank" color="text.primary">
 							zicodasilva
 						</Link>
 					</Typography>
 					<Typography variant="body2">
 						→ LinkedIn:{" "}
-						<Link
-							href="https://www.linkedin.com/in/zicoengineer/"
-							// underline="hover"
-							target="_blank"
-							color="text.primary"
-						>
+						<Link href="https://www.linkedin.com/in/zicoengineer/" target="_blank" color="text.primary">
 							zicoengineer
 						</Link>
 					</Typography>
@@ -121,7 +106,7 @@ function App() {
 }
 
 export default function ToggleColorMode() {
-	const [mode, setMode] = React.useState(userPrefs.get("darkTheme") === "false" ? "light" : "dark");
+	const [mode, setMode] = React.useState(userPrefs.get("darkTheme") === "true" ? "dark" : "light");
 	const colorMode = React.useMemo(
 		() => ({
 			toggleColorMode: () => {

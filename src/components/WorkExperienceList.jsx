@@ -19,7 +19,7 @@ function WorkExperienceList(props) {
 							African Robotics Unit
 						</Link>
 					}
-					description="Part time MSc at the University of Cape Town. A full dissertation programme in the topic: Monocular 3D Reconstruction of Cheetahs in the Wild."
+					description="Completed an MSc programme at the University of Cape Town (part time). A full dissertation in the topic: Monocular 3D Reconstruction of Cheetahs in the Wild. Supervisors: Dr Amir Patel and Dr Fred Nicolls."
 				/>
 			</ListItem>
 			<ListItem>
