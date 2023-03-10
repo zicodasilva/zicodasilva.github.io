@@ -1,0 +1,1 @@
+This is a space for me to organise my thoughts about technical subjects that interest me in a personal and work setting. I hope that through my learning process, I am able to provide content that might be useful for others to learn too.

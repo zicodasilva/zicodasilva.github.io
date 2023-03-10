@@ -1,8 +1,16 @@
+:root {
+  --primary-color: #7ad077;
+  --second-color: #E3EAF2;
+}
+
 html,
 body {
 	margin: 0;
 	height: 100%;
 	min-height: 100%;
+	font-family: 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 body::-webkit-scrollbar {
@@ -55,6 +63,24 @@ hr.vertical {
 .work-experience-item {
 	flex: 1 1 0;
 	padding-left: 10px;
+}
+
+blockquote {
+  background: rgba(77, 255, 124, 0.3);
+  border-left: 10px solid var(--primary-color);
+  margin: 1.5em 10px;
+  padding: 1em 10px .1em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+a {
+  color: inherit;
+  font-weight: 500;
+}
+
+code {
+  color: black;
+  background-color: rgba(227, 234, 242);
 }
 
 @media only screen and (max-width: 1000px) {
