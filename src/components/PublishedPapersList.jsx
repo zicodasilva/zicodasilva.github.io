@@ -17,11 +17,14 @@ function PublishedPapersList(props) {
 				</Link>
 			</ListItem>
 			<ListItem>
-				{/* <Link href="#" target="_blank" color="text.primary"> */}
+				<Link href="https://journals.biologists.com/jeb/article/226/Suppl_1/jeb245122/307101/Chasing-the-cheetah-how-field-biomechanics-has"
+					// underline="hover"
+					target="_blank"
+					color="text.primary">
 				<Typography variant="body2">
-					Chasing the Cheetah: How field biomechanics has evolved to keep up with the fastest land animal*
+					Chasing the Cheetah: How field biomechanics has evolved to keep up with the fastest land animal
 				</Typography>
-				{/* </Link> */}
+				</Link>
 			</ListItem>
 			<ListItem>
 				{/* <Link href="#" target="_blank" color="text.primary"> */}

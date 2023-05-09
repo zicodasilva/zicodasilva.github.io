@@ -53,7 +53,7 @@ export function Home() {
 					<Typography variant="h5">About</Typography>
 					<Divider flexItem />
 					<Typography variant="body2" marginTop="15px">
-						{`Zico da Silva ${"\u2014"} a software engineer with a particular interest in dynamic motion applications and optimal control and estimation problems.`}
+						{`Zico da Silva ${"\u2014"} a software engineer with a particular interest in dynamic motion applications, optimal control and estimation problems.`}
 					</Typography>
 					<Typography variant="body2" marginTop="15px">
 						Preferred languages: C/C++, Python, JavaScript (NodeJS and ReactJS).
@@ -70,11 +70,11 @@ export function Home() {
 					</Typography>
 					<Divider flexItem />
 					<br />
-					<Typography variant="body2">
+					{/* <Typography variant="body2">
 						<Link2 to="/blog" style={{ textDecoration: "none", color: "inherit" }}>
 							→ Blog
 						</Link2>
-					</Typography>
+					</Typography> */}
 					<Typography variant="body2">
 						→ Email:{" "}
 						<Link href="mailto:zicods7@gmail.com" target="_blank" color="text.primary">
