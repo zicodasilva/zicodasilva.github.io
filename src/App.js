@@ -22,7 +22,7 @@ function App() {
 }
 
 export default function ToggleColorMode() {
-	const [mode, setMode] = React.useState(userPrefs.get("darkTheme") === "true" ? "dark" : "light");
+	const [mode, setMode] = React.useState(userPrefs.get("lightTheme") === "true" ? "light" : "dark");
 	const colorMode = React.useMemo(
 		() => ({
 			toggleColorMode: () => {
@@ -63,7 +63,7 @@ export default function ToggleColorMode() {
 	);
 
 	React.useEffect(() => {
-		userPrefs.set("darkTheme", mode === "light" ? "false" : "true");
+		userPrefs.set("lightTheme", mode === "light" ? "true" : "false");
 	}, [mode]);
 
 	return (

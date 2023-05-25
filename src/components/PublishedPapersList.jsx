@@ -32,7 +32,7 @@ function PublishedPapersList(props) {
 				{/* </Link> */}
 			</ListItem>
 			<br />
-			<Typography variant="body2">* Release pending</Typography>
+			{/* <Typography variant="body2">* Release pending</Typography> */}
 			<Typography variant="body2">** Under development</Typography>
 		</List>
 	);

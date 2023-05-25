@@ -7,7 +7,6 @@ import Brightness2Icon from "@mui/icons-material/Brightness2";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DownloadIcon from "@mui/icons-material/Download";
 import { Divider, Typography, Link } from "@mui/material";
-import { Routes, Route, Outlet, Link as Link2 } from "react-router-dom";
 
 import WorkExperienceList from "../components/WorkExperienceList";
 import ProjectList from "../components/ProjectList";
@@ -54,6 +53,9 @@ export function Home() {
 					<Divider flexItem />
 					<Typography variant="body2" marginTop="15px">
 						{`Zico da Silva ${"\u2014"} a software engineer with a particular interest in dynamic motion applications, optimal control and estimation problems.`}
+					</Typography>
+					<Typography variant="body2" marginTop="15px">
+						Currently open to roles with a direct impact on environmental sustainability or community building.
 					</Typography>
 					<Typography variant="body2" marginTop="15px">
 						Preferred languages: C/C++, Python, JavaScript (NodeJS and ReactJS).
