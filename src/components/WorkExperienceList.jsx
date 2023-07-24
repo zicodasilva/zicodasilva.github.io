@@ -8,7 +8,7 @@ function WorkExperienceList(props) {
 		<List dense={false}>
 			<ListItem>
 				<WorkExperienceItem
-					header={`2021 ${"\u2013"} 2023`}
+					header={`Mar 2023 ${"\u2013"} Present`}
 					title={
 						<Link
 							href="http://www.aru.uct.ac.za/"
@@ -19,7 +19,8 @@ function WorkExperienceList(props) {
 							African Robotics Unit
 						</Link>
 					}
-					description="Completed an MSc programme at the University of Cape Town (part time). A full dissertation on the topic: Monocular 3D Reconstruction of Cheetahs in the Wild. Supervisors: Dr Amir Patel and Dr Fred Nicolls."
+					position="Research Assistant"
+					description="Part-time research and development work for Dr Amir Patel, on topics closely related to my Master’s thesis. We are currently working together on two research papers about the pose estimation of the cheetah in the wild."
 				/>
 			</ListItem>
 			<ListItem>
@@ -35,9 +36,25 @@ function WorkExperienceList(props) {
 							Peralex Electronics
 						</Link>
 					}
-					description="Remote software and DSP (digital signal processing) engineer. He
-										has worked as the sole engineer on a diverse set of projects, ranging from IoT
-										(Internet of Things), web development, and radar signal processing."
+					position="Software and DSP Engineer"
+					description="Lead engineer on a diverse set of projects, ranging from IoT (Internet of Things), web development, and RADAR signal processing. Experienced in developing client-server architectures that integrate high-performance data processing systems (C++ Linux system), together with browser-based data visualisation dashboards."
+				/>
+			</ListItem>
+			<ListItem>
+				<WorkExperienceItem
+					header={`2021 ${"\u2013"} 2023`}
+					title={
+						<Link
+							href="http://www.aru.uct.ac.za/"
+							// underline="hover"
+							target="_blank"
+							color="text.primary"
+						>
+							African Robotics Unit
+						</Link>
+					}
+					position="Student"
+					description="Pending feedback · Thesis: Monocular 3D Reconstruction of Cheetahs in the Wild. This project explored the use of monocular video to obtain accurate 3D kinematics of the cheetah in its natural habitat. Supervisors: Dr Amir Patel & Dr Fred Nicolls"
 				/>
 			</ListItem>
 			<ListItem>
@@ -53,8 +70,8 @@ function WorkExperienceList(props) {
 							African Robotics Unit
 						</Link>
 					}
-					description="Worked on the DIMA Robot, developed by Dr Amir Patel, at the University of Cape Town.
-								Implemented an Inertial Navigation Control System for the robot."
+					position="Student Intern"
+					description="Worked on the DIMA Robot, developed by Dr Amir Patel. Implemented an inertial navigation system (INS) for the robot using a Kalman filter and an IMU sensor."
 				/>
 			</ListItem>
 			<ListItem>
@@ -70,6 +87,7 @@ function WorkExperienceList(props) {
 							University of Cape Town
 						</Link>
 					}
+					position="Student"
 					description="BSc Electrical and Computer Engineering, graduating with a First-Class honours."
 				/>
 			</ListItem>

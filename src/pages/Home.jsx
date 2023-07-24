@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useRef} from "react";
 import IconButton from "@mui/material/IconButton";
 import Box from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
@@ -24,14 +24,13 @@ export function Home() {
 		link.href = "zico_cv.pdf";
 		link.click();
 	};
-
 	return (
 		<Box
 			sx={{
 				bgcolor: "background.default",
 				color: "text.primary",
 				width: "100%",
-				// height: "100vh",
+				minHeight: "100vh",
 			}}
 		>
 			<header>
@@ -52,16 +51,16 @@ export function Home() {
 					<Typography variant="h5">About</Typography>
 					<Divider flexItem />
 					<Typography variant="body2" marginTop="15px">
-						{`Zico da Silva ${"\u2014"} a software engineer with a particular interest in dynamic motion applications, optimal control and estimation problems.`}
+						{`Zico da Silva ${"\u2014"} a software engineer with a particular interest in digital signal processing (DSP), optimal control and estimation problems.`}
 					</Typography>
 					<Typography variant="body2" marginTop="15px">
 						Currently open to roles with a direct impact on environmental sustainability or community building.
 					</Typography>
 					<Typography variant="body2" marginTop="15px">
-						Preferred languages: C/C++, Python, JavaScript (NodeJS and ReactJS).
+						Preferred languages: C/C++, Python, and JavaScript (NodeJS and ReactJS).
 					</Typography>
 					<Typography variant="body2" marginTop="15px">
-						Preferred fields: Computer Vision and Control Theory.
+						Preferred fields: Software development, DSP, embedded systems, machine learning, and control theory.
 					</Typography>
 					<br />
 					<Typography variant="h5">Published Works</Typography>
