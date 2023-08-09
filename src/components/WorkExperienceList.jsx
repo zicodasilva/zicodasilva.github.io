@@ -54,7 +54,7 @@ function WorkExperienceList(props) {
 						</Link>
 					}
 					position="Student"
-					description="Pending feedback · Thesis: Monocular 3D Reconstruction of Cheetahs in the Wild. This project explored the use of monocular video to obtain accurate 3D kinematics of the cheetah in its natural habitat. Supervisors: Dr Amir Patel & Dr Fred Nicolls"
+					description="Passed with Distinction · Thesis: Monocular 3D Reconstruction of Cheetahs in the Wild. This project explored the use of monocular video to obtain accurate 3D kinematics of the cheetah in its natural habitat. Supervisors: Dr Amir Patel & Dr Fred Nicolls"
 				/>
 			</ListItem>
 			<ListItem>
@@ -88,7 +88,7 @@ function WorkExperienceList(props) {
 						</Link>
 					}
 					position="Student"
-					description="BSc Electrical and Computer Engineering, graduating with a First-Class honours."
+					description="First Class Honours · Computer and Electrical Engineering. Final year thesis: Simultaneous Localisation and Mapping (SLAM) for underground robots with the Kinect camera using computer vision techniques."
 				/>
 			</ListItem>
 		</List>
