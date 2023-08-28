@@ -54,7 +54,7 @@ export function Home() {
 						{`Zico da Silva ${"\u2014"} a software engineer with a particular interest in digital signal processing (DSP), optimal control and estimation problems.`}
 					</Typography>
 					<Typography variant="body2" marginTop="15px">
-						Currently open to roles with a direct impact on environmental sustainability or community building.
+						I am not bound to a specific domain; instead, I let my interest in engineering and mathematics lead me to various applications. I would like to be involved in more projects that have a direct social and environmental impact. Therefore, I am currently open to technical roles that directly contribute to environmental sustainability or community building.
 					</Typography>
 					<Typography variant="body2" marginTop="15px">
 						Preferred languages: C/C++, Python, and JavaScript (NodeJS and ReactJS).

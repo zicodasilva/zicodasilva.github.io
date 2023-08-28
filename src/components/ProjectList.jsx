@@ -33,6 +33,12 @@ function ProjectList(props) {
 			</ListItem>
 			<ListItem>
 				<ProjectItem
+					title="Estimation Theory"
+					description="At Peralex, I've contributed to a couple projects involving state estimation, specifically, developing an extended Kalman filter (EKF) for object tracking and the iterative least squares (ILS) method for static position estimates using sensor fusion. Both algorithms have been implemented in C++ and Python."
+				/>
+			</ListItem>
+			<ListItem>
+				<ProjectItem
 					title="Passive Radar Visualisation"
 					description="Live flight tracking web app that connects to a passive radar system. CesiumJS was used for 3D geospatial visualisation, and the system supports live analysis of flight data. The web app was developed using NodeJS, JavaScript, WebSockets, HTML, and CSS."
 				/>
