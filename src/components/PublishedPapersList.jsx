@@ -27,13 +27,29 @@ function PublishedPapersList(props) {
 				</Link>
 			</ListItem>
 			<ListItem>
-				{/* <Link href="#" target="_blank" color="text.primary"> */}
-				<Typography variant="body2">Motion and Torque Estimation of Cheetahs in the Wild**</Typography>
-				{/* </Link> */}
+				<Link
+					href="https://www.nature.com/articles/s41598-024-60731-1"
+					// underline="hover"
+					target="_blank"
+					color="text.primary"
+				>
+					<Typography variant="body2">
+						Markerless 3D kinematics and force estimation in cheetahs
+					</Typography>
+				</Link>
 			</ListItem>
-			<br />
-			{/* <Typography variant="body2">* Release pending</Typography> */}
-			<Typography variant="body2">** Under development</Typography>
+			<ListItem>
+				<Link
+					href="https://ieeexplore.ieee.org/abstract/document/10802061"
+					// underline="hover"
+					target="_blank"
+					color="text.primary"
+				>
+					<Typography variant="body2">
+						Monocular 3D Reconstruction of Cheetahs in the Wild
+					</Typography>
+				</Link>
+			</ListItem>
 		</List>
 	);
 }

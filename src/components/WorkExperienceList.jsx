@@ -8,7 +8,41 @@ function WorkExperienceList(props) {
 		<List dense={false}>
 			<ListItem>
 				<WorkExperienceItem
-					header={`Mar 2023 ${"\u2013"} Present`}
+					header={`Oct 2024 ${"\u2013"} Present`}
+					title={
+						<Link
+							href="https://robohouse.nl"
+							// underline="hover"
+							target="_blank"
+							color="text.primary"
+						>
+							RoboHouse
+						</Link>
+					}
+					position="Robotics Software Engineer"
+					description="Software engineer working on robotic systems with a focus on the future of work. I’ve gained hands-on experience with industrial robotic arms from ABB, Universal Robots, and KUKA, as well as end-effector technologies from Schunk, Festo, and Robotiq. My current work is focused on teleoperation and robot learning for manipulation tasks, along with the development of a vision-based tactile gripper."
+				/>
+			</ListItem>
+			<ListItem>
+				<WorkExperienceItem
+					header={`Feb 2016 ${"\u2013"} Sep 2024`}
+					title={
+						<Link
+							href="https://www.peralex.nl/"
+							// underline="hover"
+							target="_blank"
+							color="text.primary"
+						>
+							Peralex Electronics
+						</Link>
+					}
+					position="Software and DSP Engineer"
+					description="Lead engineer on a diverse set of projects, ranging from IoT (Internet of Things), web development, and RADAR signal processing. Experienced in developing client-server architectures that integrate high-performance data processing systems (C++ Linux system), together with browser-based data visualisation dashboards."
+				/>
+			</ListItem>
+			<ListItem>
+				<WorkExperienceItem
+					header={`Feb 2023 ${"\u2013"} Nov 2023`}
 					title={
 						<Link
 							href="http://www.aru.uct.ac.za/"
@@ -20,24 +54,7 @@ function WorkExperienceList(props) {
 						</Link>
 					}
 					position="Research Assistant"
-					description="Part-time research and development work for Dr Amir Patel, on topics closely related to my Master’s thesis. We are currently working together on two research papers about the pose estimation of the cheetah in the wild."
-				/>
-			</ListItem>
-			<ListItem>
-				<WorkExperienceItem
-					header={`Feb 2016 ${"\u2013"} Present`}
-					title={
-						<Link
-							href="https://www.peralex.com/"
-							// underline="hover"
-							target="_blank"
-							color="text.primary"
-						>
-							Peralex Electronics
-						</Link>
-					}
-					position="Software and DSP Engineer"
-					description="Lead engineer on a diverse set of projects, ranging from IoT (Internet of Things), web development, and RADAR signal processing. Experienced in developing client-server architectures that integrate high-performance data processing systems (C++ Linux system), together with browser-based data visualisation dashboards."
+					description="Part-time research and development work for Dr Amir Patel, on topics closely related to my Master’s thesis."
 				/>
 			</ListItem>
 			<ListItem>

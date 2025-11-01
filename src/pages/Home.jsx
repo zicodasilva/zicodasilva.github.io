@@ -51,13 +51,13 @@ export function Home() {
 					<Typography variant="h5">About</Typography>
 					<Divider flexItem />
 					<Typography variant="body2" marginTop="15px">
-						{`Zico da Silva ${"\u2014"} a software engineer with a particular interest in digital signal processing (DSP), optimal control and estimation problems.`}
+						{`Zico da Silva ${"\u2014"} a software engineer with a particular interest in robotics and digital signal processing (DSP).`}
 					</Typography>
 					<Typography variant="body2" marginTop="15px">
 						I am not bound to a specific domain; instead, I let my interest in engineering and mathematics lead me to various applications. I would like to be involved in more projects that have a direct social and environmental impact. Therefore, I am currently open to technical roles that directly contribute to environmental sustainability or community building.
 					</Typography>
 					<Typography variant="body2" marginTop="15px">
-						Preferred languages: C/C++, Python, and JavaScript (NodeJS and ReactJS).
+						Preferred languages: Rust, C/C++, Python, and JavaScript (NodeJS and ReactJS).
 					</Typography>
 					<Typography variant="body2" marginTop="15px">
 						Preferred fields: Software development, DSP, embedded systems, machine learning, and control theory.
